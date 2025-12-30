@@ -26,6 +26,25 @@
     html,body,h1,h2,h3,h4,h5,h6 {
       font-family: "Roboto", sans-serif;
     }
+    .badge-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .badge-row img {
+    width: 80px;          
+    height: auto;
+    border-radius: 6px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .badge-row img:hover {
+    transform: scale(1.1);
+  }
+
   </style>
 </head>
 <body class="w3-light-grey">
@@ -47,31 +66,58 @@
             <h2>Ashutosh Chaudhary</h2>
           </div>
         </div>
-        <div class="w3-container">
+        <div class="w3-container w3-margin-top">
+          
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Devops Engineer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Noida, Uttar Pradesh</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ashutosh_chaudhary@mail.com</p>
        
           <hr>
+          <p class="w3-large">
+           <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Badges</b>
+</p>
+
+<div class="badge-row w3-margin-bottom">
+
+  <a href="https://www.credly.com/badges/a90498dc-a865-457c-a322-a610ffacbe8a/public_url"
+     target="_blank" rel="noopener">
+    <img src="/images/cka.png" alt="CKA Badge">
+  </a>
+
+  <a href="https://www.credly.com/badges/5a77cf19-ae88-44b0-9969-aff4fc984807/public_url" target="_blank" rel="noopener">
+    <img src="/images/cks.png" alt="CKS Badge">
+  </a>
+
+  <a href="https://rhtapps.redhat.com/verify?certId=220-068-068"
+     target="_blank" rel="noopener">
+    <img src="/images/rhcsa.jpeg" alt="RHCSA Badge">
+  </a>
+
+  <a href="https://rhtapps.redhat.com/verify?certId=220-068-068"
+     target="_blank" rel="noopener">
+    <img src="/images/rhce.jpg" alt="RHCE Badge">
+  </a>
+</div>
+<div style="height:13px;"></div>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
           <p>Linux OS</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
           </div>
           <p>Kubernetes</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">
-              <div class="w3-center w3-text-white">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">
+              <div class="w3-center w3-text-white">85%</div>
             </div>
           </div>
           <p>Automation with Ansible</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
           </div>
           <p>Scripting</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
           </div>
           <br>
 
@@ -105,6 +151,12 @@
           <div class="w3-tag w3-round w3-blue" style="padding:3px">
             <div class="w3-tag w3-round w3-blue w3-border w3-border-blue w3-hover-border-white">
               <a href="https://www.credly.com/badges/a90498dc-a865-457c-a322-a610ffacbe8a/public_url" target="_blank" rel="noopener noreferrer">Certified Kubernetes Administrator</a>
+            </div>
+          </div>
+          <p> </p>
+          <div class="w3-tag w3-round w3-blue" style="padding:3px">
+            <div class="w3-tag w3-round w3-blue w3-border w3-border-blue w3-hover-border-white">
+              <a href="https://www.credly.com/badges/5a77cf19-ae88-44b0-9969-aff4fc984807/public_url" target="_blank" rel="noopener noreferrer">Certified Kubernetes Security Specialist</a>
             </div>
           </div>
           <br><br>
